@@ -10,3 +10,6 @@ Work Flow mainly includes :
 2. Now, Check the notifications tab.
 3. If the notifications are equal to the selected list of contact then the message is directly automated to them as a personal message.
 4. Hence this helps us, if we forgot to message them on their birthdays and to maintain healthy relationship.
+
+# Flowchart
+![image](flow.drawio.png)
