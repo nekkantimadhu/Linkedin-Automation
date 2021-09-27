@@ -1,32 +1,33 @@
-<!doctype html> 
-<html><body><br>
-    <h1 id = "demo" align = "center"></h1>
-     </body>
-     <script>
-    const connections = ["Madhu", "Sri", "Sushmitha", "MAD"];
-    const notifications = ["Madhu", "Nekkanti", "Sri", "MAD"];
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LinkedIn</title>
+    </head>
+    <body>
+        <br>
+        <h1 id = "demo" align = "center"></h1>
+    </body>
+    <script>
+        const connections = ["Madhu", "Sri", "Sushmitha", "MAD"];
+        const notifications = ["Madhu", "Nekkanti", "Sri", "MAD"];
 
     
-    const wishes = ["Congrats on New Role", "Happy Birthday", "Happy Work Aniversary", "Hi"];
-    //const newArr = notifications.map(wishes)
-    let out = "";
+        const wishes = ["Congrats on New Role", "Happy Birthday", "Happy Work Aniversary", "Hi"];
+        //const newArr = notifications.map(wishes)
+        let out = "";
     
-    for(let i =0 ; i < connections.length; i++){
-        for(let j  = 0; j< notifications.length; j++){
-            if(connections[i].includes(notifications[j])){
-                //alert("Congrats on the New role ")
-                out = out + [wishes[j], notifications[j]].join(" ");
-                document.getElementById("demo").innerHTML = out;
-                
-                
+        for(let i =0 ; i < connections.length; i++){
+            for(let j  = 0; j< notifications.length; j++){
+                if(connections[i].includes(notifications[j])){
+                    //alert("Congrats on the New role ")
+                    out = out + [wishes[j], notifications[j]].join(" ");
+                    document.getElementById("demo").innerHTML = out;
+                }
+                out += "\n\n";
+                ///document.write("<br/>");
             }
-            out += "\n\n";
-            ///document.write("<br/>");
-        }
         
-    }
-
-
-</script>
+        }
+    </script>
 
 </html>
