@@ -1,7 +1,8 @@
 # Linkedin-Automation
 
 LinkedIn Automation is mainly about automating the messages of our primary(1st or 2nd) connections in linkedIn, regarding Birthdays, Work Anniversaries, etc., 
-LinkedIn Automation is helpful in building good relationship with our connections and increase our reach.
+LinkedIn Automation is helpful in building good relationship with our connections and increase our reach. 
+This also help us to send some personalised advertisements or promotion of our products in just one go.
 
 # Work Flow :
 Work Flow mainly includes :
